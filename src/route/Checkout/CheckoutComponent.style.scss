@@ -23,8 +23,9 @@
     font-size: 15px;
     color: white;
     margin: 10px;
-    
+
 }
+
 
 .Checkout-second-milestone-arrow-SHIPPING_STEP {
     height: 35px;
@@ -36,7 +37,7 @@
     font-size: 15px;
     color: black;
     margin: 10px;
-    opacity: 0.7;
+    opacity: 0.5;
     
 }
 .Checkout-progress-bar-line1-SHIPPING_STEP {
@@ -45,12 +46,13 @@
     width: 1050px;
     border-radius: 4px;
 }
+
 .Checkout-progress-bar-line2-SHIPPING_STEP {
     background-color: #bbbaba;
     height: 4px;
     width: 285px;
     border-radius: 4px;
-    opacity: 0.7;
+    opacity: 0.5;
 
 }
 .Checkout-progress-bar-line3-SHIPPING_STEP {
@@ -58,7 +60,7 @@
     height: 4px;
     width: 1200px;
     border-radius: 4px;
-    opacity: 0.7;
+    opacity: 0.5;
 
 }
 .Checkout-progress-bar-milestone-text-m2-SHIPPING_STEP{
@@ -68,7 +70,7 @@
     text-align: center;
     white-space: nowrap;
     font-size: 15px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .Checkout-progress-bar-milestone-text-m1-SHIPPING_STEP{
     position: absolute;
@@ -77,6 +79,7 @@
     text-align: center;
     white-space: nowrap;
     font-size: 15px;
+    font-weight: bold;
 }
 
 
@@ -125,7 +128,7 @@
     height: 4px;
     width: 1200px;
     border-radius: 4px;
-    opacity: 0.7;
+    opacity: 0.5;
 
 }
 .Checkout-progress-bar-milestone-text-m2-BILLING_STEP{
@@ -135,6 +138,8 @@
     text-align: center;
     white-space: nowrap;
     font-size: 15px;
+    font-weight: bold;
+
 }
 .Checkout-progress-bar-milestone-text-m1-BILLING_STEP{
     position: absolute;
