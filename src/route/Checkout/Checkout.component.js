@@ -3,8 +3,9 @@ import { Checkout as SourceCheckout } from "SourceRoute/Checkout/Checkout.compon
 import "./CheckoutComponent.style.scss";
 
 export class CheckoutComponent extends SourceCheckout {
+
   renderProgressBar() {
-    let currentStep = this.props.checkoutStep;
+    const currentStep = this.props.checkoutStep;
     return (
       <div className="Checkout-progress-bar-wrapper">
         <div className={"Checkout-progress-bar-line1-" + currentStep}></div>
