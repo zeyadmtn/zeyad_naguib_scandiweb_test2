@@ -1,0 +1,44 @@
+.Checkout-first-milestone-arrow {
+    height: 35px;
+    width: 35px;
+    background-color: #a32626;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 250%;
+    font-size: 15px;
+    color: white;
+    margin: 5px;
+    
+}
+
+.Checkout::before {
+    display: none;
+}
+
+.Checkout-progress-bar-wrapper {
+    background: #f8f8f8;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Checkout-progress-bar-line1 {
+    background-color: #a32626;
+    height: 4px;
+    width: 1050px;
+    border-radius: 4px;
+}
+.Checkout-progress-bar-line2 {
+    background-color: #a32626;
+    height: 4px;
+    width: 285px;
+    border-radius: 4px;
+}
+.Checkout-progress-bar-line3 {
+    background-color: #a32626;
+    height: 4px;
+    width: 1200px;
+    border-radius: 4px;
+}
