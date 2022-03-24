@@ -1,44 +1,137 @@
-.Checkout-first-milestone-arrow {
-    height: 35px;
-    width: 35px;
-    background-color: #a32626;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 250%;
-    font-size: 15px;
-    color: white;
-    margin: 5px;
-    
-}
 
 .Checkout::before {
     display: none;
 }
 
 .Checkout-progress-bar-wrapper {
-    background: #f8f8f8;
+    background: #eeeeee;
     width: auto;
-    height: 100px;
+    height: 120px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.Checkout-progress-bar-line1 {
-    background-color: #a32626;
+
+.Checkout-first-milestone-arrow-SHIPPING_STEP {
+    height: 35px;
+    width: 35px;
+    background-color: #f26224;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 270%;
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    
+}
+
+.Checkout-second-milestone-arrow-SHIPPING_STEP {
+    height: 35px;
+    width: 35px;
+    background-color: #bbbaba;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 270%;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    opacity: 0.7;
+    
+}
+.Checkout-progress-bar-line1-SHIPPING_STEP {
+    background-color: #f26224;
     height: 4px;
     width: 1050px;
     border-radius: 4px;
 }
-.Checkout-progress-bar-line2 {
-    background-color: #a32626;
+.Checkout-progress-bar-line2-SHIPPING_STEP {
+    background-color: #bbbaba;
     height: 4px;
     width: 285px;
     border-radius: 4px;
+    opacity: 0.7;
+
 }
-.Checkout-progress-bar-line3 {
-    background-color: #a32626;
+.Checkout-progress-bar-line3-SHIPPING_STEP {
+    background-color: #bbbaba;
     height: 4px;
     width: 1200px;
     border-radius: 4px;
+    opacity: 0.7;
+
+}
+.Checkout-progress-bar-milestone-text-m2-SHIPPING_STEP{
+    position: absolute;
+    top: 53px;
+    right: -35px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.Checkout-progress-bar-milestone-text-m1-SHIPPING_STEP{
+    position: absolute;
+    top: 53px;
+    left: -5px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+
+
+//Billing step below
+
+.Checkout-second-milestone-arrow-BILLING_STEP {
+    height: 35px;
+    width: 35px;
+    background-color: #bbbaba;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 270%;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    opacity: 0.7;
+    
+}
+.Checkout-progress-bar-line1-BILLING_STEP {
+    background-color: #f26224;
+    height: 4px;
+    width: 1050px;
+    border-radius: 4px;
+}
+.Checkout-progress-bar-line2-BILLING_STEP {
+    background-color: #bbbaba;
+    height: 4px;
+    width: 285px;
+    border-radius: 4px;
+    opacity: 0.7;
+
+}
+.Checkout-progress-bar-line3-BILLING_STEP {
+    background-color: #bbbaba;
+    height: 4px;
+    width: 1200px;
+    border-radius: 4px;
+    opacity: 0.7;
+
+}
+.Checkout-progress-bar-milestone-text-m2-BILLING_STEP{
+    position: absolute;
+    top: 53px;
+    right: -35px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.Checkout-progress-bar-milestone-text-m1-BILLING_STEP{
+    position: absolute;
+    top: 53px;
+    left: -5px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
 }
