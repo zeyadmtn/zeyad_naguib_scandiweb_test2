@@ -82,19 +82,31 @@
 
 
 //Billing step below
-
-.Checkout-second-milestone-arrow-BILLING_STEP {
+.Checkout-first-milestone-arrow-BILLING_STEP {
     height: 35px;
     width: 35px;
-    background-color: #bbbaba;
+    background-color: #f26224;
     border-radius: 50%;
     text-align: center;
     line-height: 270%;
     font-size: 15px;
     color: black;
     margin: 10px;
-    opacity: 0.7;
-    
+    color: white;
+
+}
+
+.Checkout-second-milestone-arrow-BILLING_STEP {
+    height: 35px;
+    width: 35px;
+    background-color: #f26224;;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 270%;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    color: white;
 }
 .Checkout-progress-bar-line1-BILLING_STEP {
     background-color: #f26224;
@@ -103,12 +115,10 @@
     border-radius: 4px;
 }
 .Checkout-progress-bar-line2-BILLING_STEP {
-    background-color: #bbbaba;
+    background-color: #f26224;
     height: 4px;
-    width: 285px;
+    width: 1050px;
     border-radius: 4px;
-    opacity: 0.7;
-
 }
 .Checkout-progress-bar-line3-BILLING_STEP {
     background-color: #bbbaba;
@@ -125,9 +135,72 @@
     text-align: center;
     white-space: nowrap;
     font-size: 15px;
-    opacity: 0.7;
 }
 .Checkout-progress-bar-milestone-text-m1-BILLING_STEP{
+    position: absolute;
+    top: 53px;
+    left: -5px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+
+//DETAILS STEP BELOW
+.Checkout-first-milestone-arrow-DETAILS_STEP {
+    height: 35px;
+    width: 35px;
+    background-color: #f26224;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 270%;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    color: white;
+
+}
+
+.Checkout-second-milestone-arrow-DETAILS_STEP {
+    height: 35px;
+    width: 35px;
+    background-color: #f26224;;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 270%;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    color: white;
+}
+.Checkout-progress-bar-line1-DETAILS_STEP {
+    background-color: #f26224;
+    height: 4px;
+    width: 1050px;
+    border-radius: 4px;
+}
+.Checkout-progress-bar-line2-DETAILS_STEP {
+    background-color: #f26224;
+    height: 4px;
+    width: 1050px;
+    border-radius: 4px;
+}
+.Checkout-progress-bar-line3-DETAILS_STEP {
+    background-color: #f26224;
+    height: 4px;
+    width: 1200px;
+    border-radius: 4px;
+
+}
+.Checkout-progress-bar-milestone-text-m2-DETAILS_STEP{
+    position: absolute;
+    top: 53px;
+    right: -35px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+}
+.Checkout-progress-bar-milestone-text-m1-DETAILS_STEP{
     position: absolute;
     top: 53px;
     left: -5px;
